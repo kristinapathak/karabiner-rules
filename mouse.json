@@ -1,0 +1,81 @@
+{
+  "title": "Mouse macros",
+  "rules": [
+    {
+      "description": "Mouse button 4 to move screen right",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button4"
+          },
+          "to": {
+            "key_code": "right_arrow",
+            "modifiers": [
+              "left_control"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "description": "Mouse button 5 to move screen left",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button5"
+          },
+          "to": {
+            "key_code": "left_arrow",
+            "modifiers": [
+              "left_control"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "description": "Scroll click to open launchpad",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button3"
+          },
+          "to": {
+            "key_code": "l",
+            "modifiers": [
+              "left_control",
+              "left_command"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "description": "L+R click to open mission control",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "pointing_button": "button1"
+              },
+              {
+                "pointing_button": "button2"
+              }
+            ]
+          },
+          "to": {
+            "key_code": "up_arrow",
+            "modifiers": [
+              "left_control"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
